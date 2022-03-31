@@ -1,10 +1,11 @@
 {
-  "name": "ffprobe-static",
+  "name": "@wellsaid-labs/ffprobe-static",
   "version": "3.0.0",
   "description": "Static binaries for ffprobe.",
   "main": "index.js",
   "scripts": {
-    "test": "tape tests/*"
+    "test": "tape tests/*",
+    "artifactregistry-login": "npx google-artifactregistry-auth"
   },
   "repository": {
     "type": "git",
